@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     'rosetta',
     'drf_yasg',
 
-
+    'core.apps.CoreConfig',
 ]
 
 MIDDLEWARE = [
@@ -216,7 +216,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # custom user
-# AUTH_USER_MODEL = 'core.CustomUser'
+AUTH_USER_MODEL = 'core.CustomUser'
 
 # jalali apps
 # default settings (optional)

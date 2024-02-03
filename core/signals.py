@@ -1,7 +1,7 @@
 from django.contrib.auth.models import Group
 from django.db.models.signals import pre_save, post_save
 from django.dispatch import receiver
-from core.models import CustomUser, ShopUserDetail
+from core.models import CustomUser, ShopUserDetailModel
 
 
 @receiver(post_save, sender=CustomUser)
@@ -9,8 +9,8 @@ def custom_user_type_shop_post_save(sender, instance, created, **kwargs):
     if instance.type == '2':
         try:
             get = instance.shop_detail
-        except ShopUserDetail.DoesNotExist:
-            detail = ShopUserDetail.objects.create(user=instance)
+        except ShopUserDetailModel.DoesNotExist:
+            detail = ShopUserDetailModel.objects.create(user=instance)
             detail.translations.create(language_code='fa', title=instance.fullname, )
 
         if created:
@@ -21,7 +21,7 @@ def custom_user_type_shop_post_save(sender, instance, created, **kwargs):
                 shopgroup = Group.objects.get(id='3')
                 instance.groups.add(shopgroup)
         # if not instance.shop_detail:
-        #     shopdetail = ShopUserDetail.objects.create(user=instance)
+        #     shopdetail = ShopUserDetailModel.objects.create(user=instance)
     if instance.type == '1':
         if created:
             try:

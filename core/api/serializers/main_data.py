@@ -9,7 +9,7 @@ from core.models import LanguageModel, SiteSettingModel, ShopUserDetailModel
 from django.utils.translation import gettext as _
 
 # from djoser.serializers import UserCreateSerializer as DjoserUserCreateSerializer
-from djoser.serializers import UserSerializer as DjoserUserSerializer
+# from djoser.serializers import UserSerializer as DjoserUserSerializer
 
  
 # ----------------------------------------------- app setting detail ----------------------------------------------
