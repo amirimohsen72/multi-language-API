@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 13:34+0330\n"
+"PO-Revision-Date: 2023-12-07 12:19+0330\n"
+"Last-Translator: None None <amirimohsen72@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\core\admin.py:17
+msgid "site panel - Gandom"
+msgstr "لوحة الموقع - جاندوم"
+
+#: .\core\admin.py:47
+msgid "Account info"
+msgstr "معلومات الحساب"
+
+#: .\core\admin.py:48
+msgid "Personal info"
+msgstr "معلومات شخصية"
+
+#: .\core\admin.py:50 .\core\admin.py:68
+msgid "user type"
+msgstr "نوع المستخدم"
+
+#: .\core\admin.py:52
+msgid "Permissions"
+msgstr "الأذونات"
+
+#: .\core\admin.py:63
+msgid "Important dates"
+msgstr "تواريخ مهمة"
+
+#: .\core\admin.py:66
+msgid "pesonal info"
+msgstr "معلومات شخصية"
+
+#: .\core\admin.py:98 .\core\models.py:93 .\core\models.py:128
+#: .\core\models.py:153
+msgid "title"
+msgstr "عنوان"
+
+#: .\core\admin.py:102
+msgid "fullname"
+msgstr "الاسم الكامل"
+
+#: .\core\apps.py:8
+msgid "site settings"
+msgstr "إعدادات الموقع"
+
+#: .\core\models.py:23
+msgid "account"
+msgstr "حساب"
+
+#: .\core\models.py:24
+msgid "accounts"
+msgstr "حسابات"
+
+#: .\core\models.py:27
+msgid "man"
+msgstr "رجل"
+
+#: .\core\models.py:28
+msgid "woman"
+msgstr "امرأة"
+
+#: .\core\models.py:31
+msgid "normal user"
+msgstr "مستخدم عادي"
+
+#: .\core\models.py:32 .\core\models.py:192
+msgid "shop"
+msgstr "تسوق"
+
+#: .\core\models.py:33 .\core\models.py:190
+msgid "marketer"
+msgstr "مسوق"
+
+#: .\core\models.py:37
+msgid "national code"
+msgstr "رمز دولي"
+
+#: .\core\models.py:39
+msgid "personal national id of user"
+msgstr "الهوية الوطنية الشخصية للمستخدم"
+
+#: .\core\models.py:42
+msgid "A user with that national code already exists."
+msgstr "يوجد مستخدم بهذا الرمز الوطني بالفعل."
+
+#: .\core\models.py:48
+msgid "full name"
+msgstr "الاسم الكامل"
+
+#: .\core\models.py:49
+msgid "phone number"
+msgstr "رقم التليفون"
+
+#: .\core\models.py:50
+msgid "Profile Image"
+msgstr "صورة الملف الشخصي"
+
+#: .\core\models.py:51
+msgid "only image file"
+msgstr "ملف الصورة فقط"
+
+#: .\core\models.py:55
+msgid "address"
+msgstr "عنوان"
+
+#: .\core\models.py:56
+msgid "gender"
+msgstr "جنس"
+
+#: .\core\models.py:57
+msgid "account type"
+msgstr "نوع الحساب"
+
+#: .\core\models.py:59
+msgid "birth date"
+msgstr "تاريخ الميلاد"
+
+#: .\core\models.py:62
+msgid "referral marketer"
+msgstr "ممثل المسوق"
+
+#: .\core\models.py:81
+msgid "shoper user detail"
+msgstr "تفاصيل مستخدم المتسوق"
+
+#: .\core\models.py:82
+msgid "shoper users detail"
+msgstr "تفاصيل مستخدمي المتسوقين"
+
+#: .\core\models.py:88
+msgid "user"
+msgstr "مستخدم"
+
+#: .\core\models.py:90
+msgid "user license key"
+msgstr "مفتاح ترخيص المستخدم"
+
+#: .\core\models.py:95
+msgid "app logo"
+msgstr "شعار التطبيق"
+
+#: .\core\models.py:95 .\core\models.py:155
+msgid "logo for application"
+msgstr "شعار للتطبيق"
+
+#: .\core\models.py:97 .\core\models.py:157
+msgid "description in footer"
+msgstr "وصف التذييل"
+
+#: .\core\models.py:98 .\core\models.py:158
+msgid "about gandom"
+msgstr "حول غاندوم"
+
+#: .\core\models.py:100 .\core\models.py:160
+msgid "instagram"
+msgstr "انستغرام"
+
+#: .\core\models.py:101 .\core\models.py:161
+msgid "mobile"
+msgstr "متحرك"
+
+#: .\core\models.py:102 .\core\models.py:162
+msgid "telephone"
+msgstr "هاتف"
+
+#: .\core\models.py:103 .\core\models.py:163
+msgid "support phone"
+msgstr "دعم الهاتف"
+
+#: .\core\models.py:104 .\core\models.py:164
+msgid "email"
+msgstr "بريد إلكتروني"
+
+#: .\core\models.py:124
+msgid "Language"
+msgstr "لغة"
+
+#: .\core\models.py:125
+msgid "Languages"
+msgstr "اللغات"
+
+#: .\core\models.py:129
+msgid "language code"
+msgstr "رمز اللغة"
+
+#: .\core\models.py:131
+msgid "language logo"
+msgstr "شعار اللغة"
+
+#: .\core\models.py:131
+msgid "language for application"
+msgstr "لغة للتطبيق"
+
+#: .\core\models.py:132 .\core\models.py:167
+msgid "sort"
+msgstr "نوع"
+
+#: .\core\models.py:147
+msgid "Site Setting"
+msgstr "إعداد الموقع"
+
+#: .\core\models.py:148
+msgid "Site Settings"
+msgstr "إعدادات الموقع"
+
+#: .\core\models.py:151
+msgid "favicon"
+msgstr "favicon"
+
+#: .\core\models.py:155
+msgid "site logo"
+msgstr "شعار الموقع"
+
+#: .\core\models.py:165
+msgid "telegram url"
+msgstr "رابط برقية"
+
+#: .\core\models.py:168
+msgid "status"
+msgstr "حالة"
+
+#: .\core\models.py:181
+msgid "Marketer Affiliate Relation"
+msgstr "علاقة التسويق بالعمولة"
+
+#: .\core\models.py:182
+msgid "Marketer Affiliate Relations"
+msgstr "العلاقات التابعة للمسوق"
+
+#: .\core\models.py:186
+msgid "add"
+msgstr "يضيف"
+
+#: .\core\models.py:187
+msgid "percent"
+msgstr "نسبه مئويه"
+
+#: .\core\models.py:193
+msgid "commission"
+msgstr "عمولة"
+
+#: .\core\models.py:194
+#, python-format
+msgid "Enter as an integer . like 10 ( % or + ) "
+msgstr "أدخل كعدد صحيح. مثل 10 (% أو +)"
+
+#: .\core\models.py:195
+msgid "commission type"
+msgstr "نوع العمولة"
+
+#: .\core\serializers.py:43
+msgid "enter phone number"
+msgstr "أدخل رقم الهاتف"
+
+#: .\core\serializers.py:45
+msgid "phone number is not correct"
+msgstr "رقم الهاتف غير صحيح"
+
+#: .\core\serializers.py:48
+msgid "phone number is not exist"
+msgstr "رقم الهاتف غير موجود"
+
+#: .\core\serializers.py:63
+msgid "enter verify code"
+msgstr "أدخل رمز التحقق"
+
+#: .\core\serializers.py:67
+msgid "verify code not found"
+msgstr "لم يتم العثور على رمز التحقق"
+
+#: .\core\views.py:104
+msgid "your new recovery code sent successfully"
+msgstr "تم إرسال رمز الاسترداد الجديد بنجاح"
+
+#: .\core\views.py:106
+msgid "user not found"
+msgstr "لم يتم العثور على المستخدم"
+
+#: .\core\views.py:126
+msgid "Password reset successfully"
+msgstr "تم إعادة تعيين كلمة المرور بنجاح"
+
+#: .\core\views.py:128
+msgid "verify has error"
+msgstr "التحقق به خطأ"
+
+#: .\core\views.py:170 .\core\views.py:177
+msgid "error in get market data"
+msgstr "خطأ في الحصول على بيانات السوق"
+
+#: .\core\views.py:200 .\core\views.py:207
+msgid "error in get shop data"
+msgstr "خطأ في الحصول على بيانات المتجر"
+
+#~ msgid "No content found"
+#~ msgstr "لم يتم العثور على محتوى"

@@ -1,0 +1,566 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 13:31+0330\n"
+"PO-Revision-Date: 2023-12-07 12:12+0330\n"
+"Last-Translator: None None <amirimohsen72@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\core\admin.py:17
+msgid "site panel - Gandom"
+msgstr "پنل مدیریت _ گندم"
+
+#: .\core\admin.py:47
+msgid "Account info"
+msgstr "اطلاعات حساب کاربری"
+
+#: .\core\admin.py:48
+msgid "Personal info"
+msgstr "اطلاعات شخصی"
+
+#: .\core\admin.py:50 .\core\admin.py:68
+msgid "user type"
+msgstr "نوع کاربری"
+
+#: .\core\admin.py:52
+msgid "Permissions"
+msgstr "دسترسی ها"
+
+#: .\core\admin.py:63
+msgid "Important dates"
+msgstr "زمان های با اهمیت"
+
+#: .\core\admin.py:66
+msgid "pesonal info"
+msgstr "اطلاعات شخصی"
+
+#: .\core\admin.py:98 .\core\models.py:93 .\core\models.py:128
+#: .\core\models.py:153
+msgid "title"
+msgstr "عنوان"
+
+#: .\core\admin.py:102
+msgid "fullname"
+msgstr "نام و نام خانوادگی"
+
+#: .\core\apps.py:8
+msgid "site settings"
+msgstr "تنظیمات سایت"
+
+#: .\core\models.py:23
+msgid "account"
+msgstr "حساب کاربری"
+
+#: .\core\models.py:24
+msgid "accounts"
+msgstr "حساب های کاربری"
+
+#: .\core\models.py:27
+msgid "man"
+msgstr "مرد"
+
+#: .\core\models.py:28
+msgid "woman"
+msgstr "زن"
+
+#: .\core\models.py:31
+msgid "normal user"
+msgstr "کاربر معمولی"
+
+#: .\core\models.py:32 .\core\models.py:192
+msgid "shop"
+msgstr "فروشگاه"
+
+#: .\core\models.py:33 .\core\models.py:190
+msgid "marketer"
+msgstr "بازاریاب"
+
+#: .\core\models.py:37
+msgid "national code"
+msgstr "کد ملی"
+
+#: .\core\models.py:39
+msgid "personal national id of user"
+msgstr "کدملی شخصی کاربر"
+
+#: .\core\models.py:42
+msgid "A user with that national code already exists."
+msgstr "کاربر با این کد ملی موجود است"
+
+#: .\core\models.py:48
+msgid "full name"
+msgstr "نام و نام خانوادگی"
+
+#: .\core\models.py:49
+msgid "phone number"
+msgstr "شماره تماس"
+
+#: .\core\models.py:50
+msgid "Profile Image"
+msgstr "تصویر پروفایل"
+
+#: .\core\models.py:51
+msgid "only image file"
+msgstr "فقط فایل تصویر"
+
+#: .\core\models.py:55
+msgid "address"
+msgstr "آدرس"
+
+#: .\core\models.py:56
+msgid "gender"
+msgstr "جنسیت"
+
+#: .\core\models.py:57
+msgid "account type"
+msgstr "نوع حساب کاربری"
+
+#: .\core\models.py:59
+msgid "birth date"
+msgstr "تاریخ تولد"
+
+#: .\core\models.py:62
+msgid "referral marketer"
+msgstr "بازاریاب معرف"
+
+#: .\core\models.py:81
+msgid "shoper user detail"
+msgstr "جزییات کاربر فروشنده"
+
+#: .\core\models.py:82
+msgid "shoper users detail"
+msgstr "جزییات کاربران فروشنده"
+
+#: .\core\models.py:88
+msgid "user"
+msgstr "کابر"
+
+#: .\core\models.py:90
+msgid "user license key"
+msgstr "لایسنس کاربر"
+
+#: .\core\models.py:95
+msgid "app logo"
+msgstr "لوگوی برنامه"
+
+#: .\core\models.py:95 .\core\models.py:155
+msgid "logo for application"
+msgstr "لوگو برای اپلیکیشن"
+
+#: .\core\models.py:97 .\core\models.py:157
+msgid "description in footer"
+msgstr "جزییات در فوتر"
+
+#: .\core\models.py:98 .\core\models.py:158
+msgid "about gandom"
+msgstr "درباره گندم"
+
+#: .\core\models.py:100 .\core\models.py:160
+msgid "instagram"
+msgstr "اینستگرام"
+
+#: .\core\models.py:101 .\core\models.py:161
+msgid "mobile"
+msgstr "موبایل"
+
+#: .\core\models.py:102 .\core\models.py:162
+msgid "telephone"
+msgstr "تلفن"
+
+#: .\core\models.py:103 .\core\models.py:163
+msgid "support phone"
+msgstr "تلفن پشتیبانی"
+
+#: .\core\models.py:104 .\core\models.py:164
+msgid "email"
+msgstr "ایمیل"
+
+#: .\core\models.py:124
+msgid "Language"
+msgstr "زبان"
+
+#: .\core\models.py:125
+msgid "Languages"
+msgstr "زبان ها"
+
+#: .\core\models.py:129
+msgid "language code"
+msgstr "کد زبان"
+
+#: .\core\models.py:131
+msgid "language logo"
+msgstr "لوگوی زبان"
+
+#: .\core\models.py:131
+msgid "language for application"
+msgstr "زبان در اپلیکیشن"
+
+#: .\core\models.py:132 .\core\models.py:167
+msgid "sort"
+msgstr "مرتب سازی"
+
+#: .\core\models.py:147
+msgid "Site Setting"
+msgstr "تنظیمات سایت"
+
+#: .\core\models.py:148
+msgid "Site Settings"
+msgstr "تنظیمات سایت"
+
+#: .\core\models.py:151
+msgid "favicon"
+msgstr "آیکون سایت"
+
+#: .\core\models.py:155
+msgid "site logo"
+msgstr "لوگوی سایت"
+
+#: .\core\models.py:165
+msgid "telegram url"
+msgstr "تلگرام"
+
+#: .\core\models.py:168
+msgid "status"
+msgstr "وضعیت"
+
+#: .\core\models.py:181
+msgid "Marketer Affiliate Relation"
+msgstr "رابطه وابسته به بازاریاب"
+
+#: .\core\models.py:182
+msgid "Marketer Affiliate Relations"
+msgstr "رابطه وابسته به بازاریاب ها"
+
+#: .\core\models.py:186
+msgid "add"
+msgstr "افزایش عددی"
+
+#: .\core\models.py:187
+msgid "percent"
+msgstr "درصدی"
+
+#: .\core\models.py:193
+msgid "commission"
+msgstr "کمیسیون پورسانت"
+
+#: .\core\models.py:194
+#, python-format
+msgid "Enter as an integer . like 10 ( % or + ) "
+msgstr "عدد صحیح وارد کنید. مانند 10 ( % یا+ )"
+
+#: .\core\models.py:195
+msgid "commission type"
+msgstr "نوع کمیسیون"
+
+#: .\core\serializers.py:43
+msgid "enter phone number"
+msgstr "شماره تلفن را وارد نمایید"
+
+#: .\core\serializers.py:45
+msgid "phone number is not correct"
+msgstr "شماره تلفن اشتباه است"
+
+#: .\core\serializers.py:48
+msgid "phone number is not exist"
+msgstr "شماره تلفن یافت نشد"
+
+#: .\core\serializers.py:63
+msgid "enter verify code"
+msgstr "کد اعتبارسنجی را وارد نمایید"
+
+#: .\core\serializers.py:67
+msgid "verify code not found"
+msgstr "کد اعتبارسنجی یافت نشد"
+
+#: .\core\views.py:104
+msgid "your new recovery code sent successfully"
+msgstr "کد اعتبارسنجی شما با موفقیت ارسال شد."
+
+#: .\core\views.py:106
+msgid "user not found"
+msgstr "کاربر یافت نشد"
+
+#: .\core\views.py:126
+msgid "Password reset successfully"
+msgstr "تغییر رمز عبور نهایی شد."
+
+#: .\core\views.py:128
+msgid "verify has error"
+msgstr "خطا در اعتبارسنجی"
+
+#: .\core\views.py:170 .\core\views.py:177
+msgid "error in get market data"
+msgstr "خطا در دریافت اطلاعات بازاریاب"
+
+#: .\core\views.py:200 .\core\views.py:207
+msgid "error in get shop data"
+msgstr "خطا در دریافت اطلاعات فروشگاه"
+
+#~ msgid "No content found"
+#~ msgstr "محتوایی یافت نشد"
+
+#~ msgid "modified date"
+#~ msgstr "زمان ویرایش"
+
+#~ msgid "created date"
+#~ msgstr "زمان ثبت"
+
+#~ msgid "first name"
+#~ msgstr "نام"
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#~ msgid "addresses"
+#~ msgstr "آدرس ها"
+
+#~ msgid "province"
+#~ msgstr "استان"
+
+#~ msgid "city"
+#~ msgstr "شهر"
+
+#~ msgid "street"
+#~ msgstr "خیابان"
+
+#~ msgid "post code"
+#~ msgstr "کد پستی"
+
+#~ msgid "lat location"
+#~ msgstr "موقعیت عرضی"
+
+#~ msgid "logo for home page header"
+#~ msgstr "لوگو برای هدر صفحه اصلی"
+
+#~ msgid "footer logo"
+#~ msgstr "لوگو در فوتر"
+
+#~ msgid "logo for pages header"
+#~ msgstr "لوگو برای هدر صفحات"
+
+#~ msgid "google tags"
+#~ msgstr "گوگل تگ"
+
+#~ msgid "google meta"
+#~ msgstr "متاتگ گوگل توضیحات"
+
+#~ msgid "keyword meta"
+#~ msgstr "متاتگ کلمات کلیدی"
+
+#~ msgid "copy right"
+#~ msgstr "حق کپی رایت"
+
+#~ msgid "extra scripts"
+#~ msgstr "اسکریپت های آزاد"
+
+#~ msgid "enamad scripts"
+#~ msgstr "اسکریپت اینماد"
+
+#~ msgid "samandehi scripts"
+#~ msgstr "اسکریپت ساماندهی"
+
+#~ msgid "Site menu category"
+#~ msgstr "دسته بندی منو سایت"
+
+#~ msgid "Site menu categories"
+#~ msgstr "دسته بندی های منو سایت"
+
+#~ msgid "header menu"
+#~ msgstr "منو هدر(بالای صفحه)"
+
+#~ msgid "footer menu"
+#~ msgstr "منو فوتر(پایین صفحه)"
+
+#~ msgid "Site menu"
+#~ msgstr "منو سایت"
+
+#~ msgid "Site menus"
+#~ msgstr "منوهای سایت"
+
+#~ msgid "_blank"
+#~ msgstr "صفحه جدید _blank"
+
+#~ msgid "_self"
+#~ msgstr "صفحه جاری _self"
+
+#~ msgid "_top"
+#~ msgstr "_top"
+
+#~ msgid "framename"
+#~ msgstr "آی فریم framename"
+
+#~ msgid "parent menu"
+#~ msgstr "منوی والد"
+
+#~ msgid "category"
+#~ msgstr "دسته بندی ها"
+
+#~ msgid "url"
+#~ msgstr "آدرس اینترنتی"
+
+#~ msgid "target attribute"
+#~ msgstr "پارامتر target"
+
+#~ msgid "slide show category"
+#~ msgstr "دسته بندی تصاویر متحرک"
+
+#~ msgid "slide show categories"
+#~ msgstr "دسته بندی های تصاویر متحرک"
+
+#~ msgid "type"
+#~ msgstr "نوع"
+
+#~ msgid "slide show category Image"
+#~ msgstr "تصویر دسته بندی تصاویر متحرک"
+
+#~ msgid "show in home page"
+#~ msgstr "نمایش در صفحه اصلی"
+
+#~ msgid "slide show"
+#~ msgstr "تصویر متحرک"
+
+#~ msgid "slides show"
+#~ msgstr "تصاویر متحرک"
+
+#~ msgid "author"
+#~ msgstr "نویسنده"
+
+#~ msgid "description"
+#~ msgstr "جزییات"
+
+#~ msgid "slide show Image"
+#~ msgstr "تصویر اسلاید شو"
+
+#~ msgid "url link"
+#~ msgstr "آدرس لینک"
+
+#~ msgid "style for slide"
+#~ msgstr "استایل برای اسلاید"
+
+#~ msgid "show in home"
+#~ msgstr "نمایش در صفحه اصلی"
+
+#~ msgid "active"
+#~ msgstr "فعال"
+
+#~ msgid "modify time"
+#~ msgstr "زمان ویرایش"
+
+#~ msgid "publish time"
+#~ msgstr "زمان انتشار"
+
+#~ msgid "daily message"
+#~ msgstr "پیام روزانه"
+
+#~ msgid "daily messages"
+#~ msgstr "پیام های روزانه"
+
+#~ msgid "customer name"
+#~ msgstr "نام مشتری"
+
+#~ msgid "customer Image"
+#~ msgstr "تصویر مشتری"
+
+#~ msgid "image size : width:150px , height: 150px"
+#~ msgstr "اندازه تصویر : width:150px , height: 150px"
+
+#~ msgid "banner"
+#~ msgstr "بنر"
+
+#~ msgid "banners"
+#~ msgstr "بنرها"
+
+#~ msgid "square big box"
+#~ msgstr "باکس مربع بزرگ"
+
+#~ msgid "square small box"
+#~ msgstr "باکس مربع کوچک"
+
+#~ msgid "rectangle box"
+#~ msgstr "باکس مستطیل"
+
+#~ msgid "box type"
+#~ msgstr "نوع باکس"
+
+#~ msgid "Banner Image"
+#~ msgstr "تصویر بنر"
+
+#~ msgid "create time"
+#~ msgstr "زمان ساخت"
+
+#~ msgid "dashboars - personal info"
+#~ msgstr "داشبورد - اطلاعات شخصی"
+
+#~ msgid "save"
+#~ msgstr "ذخیره"
+
+#~ msgid "dashboard"
+#~ msgstr "داشبورد"
+
+#~ msgid "hello"
+#~ msgstr "سلام"
+
+#~ msgid ""
+#~ "\n"
+#~ "                                            Always be sure to have a "
+#~ "secure password for your user account. If needed,\n"
+#~ "                                            you can define a reliable "
+#~ "password for yourself through the\n"
+#~ "                                            <a href=\"#\">password change "
+#~ "page</a>.\n"
+#~ "                                        "
+#~ msgstr ""
+#~ "\n"
+#~ "همیشه مطمئن شوید که یک رمز عبور امن برای حساب کاربری خود داشته باشید. در "
+#~ "صورت نیاز،\n"
+#~ "شما می توانید یک رمز عبور قابل اعتماد برای خود تعریف کنید\n"
+#~ "<a href=\"/accounts/password/change/\">صفحه تغییر رمز عبور</a> ."
+
+#~ msgid "change password"
+#~ msgstr "تغییر رمز عبور"
+
+#~ msgid "order list"
+#~ msgstr "لیست سفارشات"
+
+#~ msgid "payment list"
+#~ msgstr "لیست خرید ها"
+
+#~ msgid "ticket"
+#~ msgstr "تیکت پشتیبانی"
+
+#~ msgid "log out"
+#~ msgstr "خروج"
+
+#~ msgid "Some of the newest products in the store"
+#~ msgstr "برخی از جدیدترین محصولات فروشگاه"
+
+#~ msgid "customer reviews about us"
+#~ msgstr "دیدگاه مشتریان درباره ما"
+
+#~ msgid "Getting to know us"
+#~ msgstr "آشنایی با ما"
+
+#~ msgid "Our activity in social media"
+#~ msgstr "فعالیت های ما در شبکه های اجتماعی"
+
+#~ msgid "your info change not submited."
+#~ msgstr "اطلاعات شما متاسفانه ثبت نشد."
+
+#~ msgid "about us in main helper"
+#~ msgstr "درباره ما در هلپر اصلی"
+
+#~ msgid "parent category"
+#~ msgstr "دسته بندی والد"

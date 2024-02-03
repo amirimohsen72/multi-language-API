@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 12:11+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\core\admin.py:17
+msgid "site panel - Gandom"
+msgstr ""
+
+#: .\core\admin.py:47
+msgid "Account info"
+msgstr ""
+
+#: .\core\admin.py:48
+msgid "Personal info"
+msgstr ""
+
+#: .\core\admin.py:50 .\core\admin.py:68
+msgid "user type"
+msgstr ""
+
+#: .\core\admin.py:52
+msgid "Permissions"
+msgstr ""
+
+#: .\core\admin.py:63
+msgid "Important dates"
+msgstr ""
+
+#: .\core\admin.py:66
+msgid "pesonal info"
+msgstr ""
+
+#: .\core\admin.py:98 .\core\models.py:93 .\core\models.py:128
+#: .\core\models.py:153
+msgid "title"
+msgstr ""
+
+#: .\core\admin.py:102
+msgid "fullname"
+msgstr ""
+
+#: .\core\apps.py:8
+msgid "site settings"
+msgstr ""
+
+#: .\core\models.py:23
+msgid "account"
+msgstr ""
+
+#: .\core\models.py:24
+msgid "accounts"
+msgstr ""
+
+#: .\core\models.py:27
+msgid "man"
+msgstr ""
+
+#: .\core\models.py:28
+msgid "woman"
+msgstr ""
+
+#: .\core\models.py:31
+msgid "normal user"
+msgstr ""
+
+#: .\core\models.py:32 .\core\models.py:192
+msgid "shop"
+msgstr ""
+
+#: .\core\models.py:33 .\core\models.py:190
+msgid "marketer"
+msgstr ""
+
+#: .\core\models.py:37
+msgid "national code"
+msgstr ""
+
+#: .\core\models.py:39
+msgid "personal national id of user"
+msgstr ""
+
+#: .\core\models.py:42
+msgid "A user with that national code already exists."
+msgstr ""
+
+#: .\core\models.py:48
+msgid "full name"
+msgstr ""
+
+#: .\core\models.py:49
+msgid "phone number"
+msgstr ""
+
+#: .\core\models.py:50
+msgid "Profile Image"
+msgstr ""
+
+#: .\core\models.py:51
+msgid "only image file"
+msgstr ""
+
+#: .\core\models.py:55
+msgid "address"
+msgstr ""
+
+#: .\core\models.py:56
+msgid "gender"
+msgstr ""
+
+#: .\core\models.py:57
+msgid "account type"
+msgstr ""
+
+#: .\core\models.py:59
+msgid "birth date"
+msgstr ""
+
+#: .\core\models.py:62
+msgid "referral marketer"
+msgstr ""
+
+#: .\core\models.py:81
+msgid "shoper user detail"
+msgstr ""
+
+#: .\core\models.py:82
+msgid "shoper users detail"
+msgstr ""
+
+#: .\core\models.py:88
+msgid "user"
+msgstr ""
+
+#: .\core\models.py:90
+msgid "user license key"
+msgstr ""
+
+#: .\core\models.py:95
+msgid "app logo"
+msgstr ""
+
+#: .\core\models.py:95 .\core\models.py:155
+msgid "logo for application"
+msgstr ""
+
+#: .\core\models.py:97 .\core\models.py:157
+msgid "description in footer"
+msgstr ""
+
+#: .\core\models.py:98 .\core\models.py:158
+msgid "about gandom"
+msgstr ""
+
+#: .\core\models.py:100 .\core\models.py:160
+msgid "instagram"
+msgstr ""
+
+#: .\core\models.py:101 .\core\models.py:161
+msgid "mobile"
+msgstr ""
+
+#: .\core\models.py:102 .\core\models.py:162
+msgid "telephone"
+msgstr ""
+
+#: .\core\models.py:103 .\core\models.py:163
+msgid "support phone"
+msgstr ""
+
+#: .\core\models.py:104 .\core\models.py:164
+msgid "email"
+msgstr ""
+
+#: .\core\models.py:124
+msgid "Language"
+msgstr ""
+
+#: .\core\models.py:125
+msgid "Languages"
+msgstr ""
+
+#: .\core\models.py:129
+msgid "language code"
+msgstr ""
+
+#: .\core\models.py:131
+msgid "language logo"
+msgstr ""
+
+#: .\core\models.py:131
+msgid "language for application"
+msgstr ""
+
+#: .\core\models.py:132 .\core\models.py:167
+msgid "sort"
+msgstr ""
+
+#: .\core\models.py:147
+msgid "Site Setting"
+msgstr ""
+
+#: .\core\models.py:148
+msgid "Site Settings"
+msgstr ""
+
+#: .\core\models.py:151
+msgid "favicon"
+msgstr ""
+
+#: .\core\models.py:155
+msgid "site logo"
+msgstr ""
+
+#: .\core\models.py:165
+msgid "telegram url"
+msgstr ""
+
+#: .\core\models.py:168
+msgid "status"
+msgstr ""
+
+#: .\core\models.py:181
+msgid "Marketer Affiliate Relation"
+msgstr ""
+
+#: .\core\models.py:182
+msgid "Marketer Affiliate Relations"
+msgstr ""
+
+#: .\core\models.py:186
+msgid "add"
+msgstr ""
+
+#: .\core\models.py:187
+msgid "percent"
+msgstr ""
+
+#: .\core\models.py:193
+msgid "commission"
+msgstr ""
+
+#: .\core\models.py:194
+#, python-format
+msgid "Enter as an integer . like 10 ( % or + ) "
+msgstr ""
+
+#: .\core\models.py:195
+msgid "commission type"
+msgstr ""
+
+#: .\core\serializers.py:43
+msgid "enter phone number"
+msgstr ""
+
+#: .\core\serializers.py:45
+msgid "phone number is not correct"
+msgstr ""
+
+#: .\core\serializers.py:48
+msgid "phone number is not exist"
+msgstr ""
+
+#: .\core\serializers.py:63
+msgid "enter verify code"
+msgstr ""
+
+#: .\core\serializers.py:67
+msgid "verify code not found"
+msgstr ""
+
+#: .\core\views.py:104
+msgid "your new recovery code sent successfully"
+msgstr ""
+
+#: .\core\views.py:106
+msgid "user not found"
+msgstr ""
+
+#: .\core\views.py:126
+msgid "Password reset successfully"
+msgstr ""
+
+#: .\core\views.py:128
+msgid "verify has error"
+msgstr ""
+
+#: .\core\views.py:170 .\core\views.py:177
+msgid "error in get market data"
+msgstr ""
+
+#: .\core\views.py:200 .\core\views.py:207
+msgid "error in get shop data"
+msgstr ""

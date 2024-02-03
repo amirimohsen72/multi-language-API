@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 13:34+0330\n"
+"PO-Revision-Date: 2023-12-07 12:25+0330\n"
+"Last-Translator: None None <amirimohsen72@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\core\admin.py:17
+msgid "site panel - Gandom"
+msgstr "site paneli - Gandom"
+
+#: .\core\admin.py:47
+msgid "Account info"
+msgstr "Hesap bilgisi"
+
+#: .\core\admin.py:48
+msgid "Personal info"
+msgstr "Kişisel bilgi"
+
+#: .\core\admin.py:50 .\core\admin.py:68
+msgid "user type"
+msgstr "Kullanıcı tipi"
+
+#: .\core\admin.py:52
+msgid "Permissions"
+msgstr "İzinler"
+
+#: .\core\admin.py:63
+msgid "Important dates"
+msgstr "Önemli tarihler"
+
+#: .\core\admin.py:66
+msgid "pesonal info"
+msgstr "kişisel bilgi"
+
+#: .\core\admin.py:98 .\core\models.py:93 .\core\models.py:128
+#: .\core\models.py:153
+msgid "title"
+msgstr "başlık"
+
+#: .\core\admin.py:102
+msgid "fullname"
+msgstr "Ad Soyad"
+
+#: .\core\apps.py:8
+msgid "site settings"
+msgstr "site ayarları"
+
+#: .\core\models.py:23
+msgid "account"
+msgstr "hesap"
+
+#: .\core\models.py:24
+msgid "accounts"
+msgstr "hesaplar"
+
+#: .\core\models.py:27
+msgid "man"
+msgstr "Adam"
+
+#: .\core\models.py:28
+msgid "woman"
+msgstr "kadın"
+
+#: .\core\models.py:31
+msgid "normal user"
+msgstr "normal kullanıcı"
+
+#: .\core\models.py:32 .\core\models.py:192
+msgid "shop"
+msgstr "mağaza"
+
+#: .\core\models.py:33 .\core\models.py:190
+msgid "marketer"
+msgstr "pazarlamacı"
+
+#: .\core\models.py:37
+msgid "national code"
+msgstr "ulusal kod"
+
+#: .\core\models.py:39
+msgid "personal national id of user"
+msgstr "kullanıcının kişisel ulusal kimliği"
+
+#: .\core\models.py:42
+msgid "A user with that national code already exists."
+msgstr "Bu ulusal koda sahip bir kullanıcı zaten mevcut."
+
+#: .\core\models.py:48
+msgid "full name"
+msgstr "Ad Soyad"
+
+#: .\core\models.py:49
+msgid "phone number"
+msgstr "telefon numarası"
+
+#: .\core\models.py:50
+msgid "Profile Image"
+msgstr "Profil Resmi"
+
+#: .\core\models.py:51
+msgid "only image file"
+msgstr "sadece resim dosyası"
+
+#: .\core\models.py:55
+msgid "address"
+msgstr "adres"
+
+#: .\core\models.py:56
+msgid "gender"
+msgstr "cinsiyet"
+
+#: .\core\models.py:57
+msgid "account type"
+msgstr "hesap tipi"
+
+#: .\core\models.py:59
+msgid "birth date"
+msgstr "doğum günü"
+
+#: .\core\models.py:62
+msgid "referral marketer"
+msgstr "yönlendirme pazarlamacısı"
+
+#: .\core\models.py:81
+msgid "shoper user detail"
+msgstr "alışverişçi kullanıcı ayrıntısı"
+
+#: .\core\models.py:82
+msgid "shoper users detail"
+msgstr "alışveriş yapan kullanıcılar ayrıntısı"
+
+#: .\core\models.py:88
+msgid "user"
+msgstr "kullanıcı"
+
+#: .\core\models.py:90
+msgid "user license key"
+msgstr "kullanıcı lisans anahtarı"
+
+#: .\core\models.py:95
+msgid "app logo"
+msgstr "uygulama logosu"
+
+#: .\core\models.py:95 .\core\models.py:155
+msgid "logo for application"
+msgstr "uygulama için logo"
+
+#: .\core\models.py:97 .\core\models.py:157
+msgid "description in footer"
+msgstr "altbilgideki açıklama"
+
+#: .\core\models.py:98 .\core\models.py:158
+msgid "about gandom"
+msgstr "Gandom hakkında"
+
+#: .\core\models.py:100 .\core\models.py:160
+msgid "instagram"
+msgstr "instagram"
+
+#: .\core\models.py:101 .\core\models.py:161
+msgid "mobile"
+msgstr "mobil"
+
+#: .\core\models.py:102 .\core\models.py:162
+msgid "telephone"
+msgstr "telefon"
+
+#: .\core\models.py:103 .\core\models.py:163
+msgid "support phone"
+msgstr "destek telefonu"
+
+#: .\core\models.py:104 .\core\models.py:164
+msgid "email"
+msgstr "e-posta"
+
+#: .\core\models.py:124
+msgid "Language"
+msgstr "Dil"
+
+#: .\core\models.py:125
+msgid "Languages"
+msgstr "Diller"
+
+#: .\core\models.py:129
+msgid "language code"
+msgstr "dil kodu"
+
+#: .\core\models.py:131
+msgid "language logo"
+msgstr "dil logosu"
+
+#: .\core\models.py:131
+msgid "language for application"
+msgstr "uygulama dili"
+
+#: .\core\models.py:132 .\core\models.py:167
+msgid "sort"
+msgstr "düzenlemek"
+
+#: .\core\models.py:147
+msgid "Site Setting"
+msgstr "Site Ayarı"
+
+#: .\core\models.py:148
+msgid "Site Settings"
+msgstr "site ayarları"
+
+#: .\core\models.py:151
+msgid "favicon"
+msgstr "site simgesi"
+
+#: .\core\models.py:155
+msgid "site logo"
+msgstr "site logosu"
+
+#: .\core\models.py:165
+msgid "telegram url"
+msgstr "telgraf URL'si"
+
+#: .\core\models.py:168
+msgid "status"
+msgstr "durum"
+
+#: .\core\models.py:181
+msgid "Marketer Affiliate Relation"
+msgstr "Pazarlamacı Bağlı Kuruluş İlişkisi"
+
+#: .\core\models.py:182
+msgid "Marketer Affiliate Relations"
+msgstr "Pazarlamacı Bağlı Kuruluş İlişkileri"
+
+#: .\core\models.py:186
+msgid "add"
+msgstr "eklemek"
+
+#: .\core\models.py:187
+msgid "percent"
+msgstr "yüzde"
+
+#: .\core\models.py:193
+msgid "commission"
+msgstr "komisyon"
+
+#: .\core\models.py:194
+#, python-format
+msgid "Enter as an integer . like 10 ( % or + ) "
+msgstr "Tamsayı olarak girin. 10 gibi (% veya +)"
+
+#: .\core\models.py:195
+msgid "commission type"
+msgstr "komisyon türü"
+
+#: .\core\serializers.py:43
+msgid "enter phone number"
+msgstr "telefon numarasını girin"
+
+#: .\core\serializers.py:45
+msgid "phone number is not correct"
+msgstr "telefon numarası doğru değil"
+
+#: .\core\serializers.py:48
+msgid "phone number is not exist"
+msgstr "telefon numarası mevcut değil"
+
+#: .\core\serializers.py:63
+msgid "enter verify code"
+msgstr "doğrulama kodunu girin"
+
+#: .\core\serializers.py:67
+msgid "verify code not found"
+msgstr "kodun bulunamadığını doğrulayın"
+
+#: .\core\views.py:104
+msgid "your new recovery code sent successfully"
+msgstr "yeni kurtarma kodunuz başarıyla gönderildi"
+
+#: .\core\views.py:106
+msgid "user not found"
+msgstr "Kullanıcı bulunamadı"
+
+#: .\core\views.py:126
+msgid "Password reset successfully"
+msgstr "Şifre başarıyla sıfırlandı"
+
+#: .\core\views.py:128
+msgid "verify has error"
+msgstr "hata olduğunu doğrula"
+
+#: .\core\views.py:170 .\core\views.py:177
+msgid "error in get market data"
+msgstr "piyasa verilerini alırken hata"
+
+#: .\core\views.py:200 .\core\views.py:207
+msgid "error in get shop data"
+msgstr "mağaza verilerini almada hata"
+
+#~ msgid "No content found"
+#~ msgstr "İçerik bulunamadı"
