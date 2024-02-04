@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-14 16:02+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\support\admin.py:18 .\support\admin.py:65
+msgid "modified date"
+msgstr ""
+
+#: .\support\admin.py:22 .\support\models\question.py:19
+msgid "title"
+msgstr ""
+
+#: .\support\api\serializers\message.py:26
+msgid "Entry of one of the text or attachment is required"
+msgstr ""
+
+#: .\support\apps.py:8
+msgid "support"
+msgstr ""
+
+#: .\support\models\messages.py:13
+msgid "ticket"
+msgstr ""
+
+#: .\support\models\messages.py:14
+msgid "tickets"
+msgstr ""
+
+#: .\support\models\messages.py:18
+msgid "new from user"
+msgstr ""
+
+#: .\support\models\messages.py:19
+msgid "seen user message"
+msgstr ""
+
+#: .\support\models\messages.py:20
+msgid "new from admin"
+msgstr ""
+
+#: .\support\models\messages.py:21
+msgid "admin message seen by user"
+msgstr ""
+
+#: .\support\models\messages.py:22
+msgid "spam"
+msgstr ""
+
+#: .\support\models\messages.py:26
+msgid "user"
+msgstr ""
+
+#: .\support\models\messages.py:32 .\support\models\messages.py:57
+msgid "message text"
+msgstr ""
+
+#: .\support\models\messages.py:34 .\support\models\messages.py:59
+msgid "attachment file"
+msgstr ""
+
+#: .\support\models\messages.py:35 .\support\models\messages.py:60
+msgid "you can upload image or *.zip file for attachment."
+msgstr ""
+
+#: .\support\models\messages.py:37 .\support\models\messages.py:61
+#: .\support\models\question.py:25
+msgid "create time"
+msgstr ""
+
+#: .\support\models\messages.py:38 .\support\models\messages.py:62
+#: .\support\models\question.py:26
+msgid "modify time"
+msgstr ""
+
+#: .\support\models\messages.py:39
+msgid "readed"
+msgstr ""
+
+#: .\support\models\messages.py:41 .\support\models\question.py:29
+msgid "status"
+msgstr ""
+
+#: .\support\models\messages.py:55
+msgid "admin"
+msgstr ""
+
+#: .\support\models\question.py:13
+msgid "draft"
+msgstr ""
+
+#: .\support\models\question.py:14
+msgid "published"
+msgstr ""
+
+#: .\support\models\question.py:20
+msgid "description"
+msgstr ""
+
+#: .\support\models\question.py:23
+msgid "author"
+msgstr ""
+
+#: .\support\models\question.py:27
+msgid "sort number"
+msgstr ""
+
+#: .\support\models\question.py:32
+msgid "question"
+msgstr ""
+
+#: .\support\models\question.py:33
+msgid "questions"
+msgstr ""
