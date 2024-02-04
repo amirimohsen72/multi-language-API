@@ -1,0 +1,23 @@
+[
+    {
+        "model": "auth.group", 
+        "pk": 1,
+        "fields": {
+            "name": "کاربر خریدار"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2, 
+        "fields": {
+            "name": "بازاریاب" 
+        }
+    },
+    {
+        "model": "auth.group", 
+        "pk": 3,
+        "fields": {
+            "name": "فروشگاه"
+        }
+    }
+    ]
