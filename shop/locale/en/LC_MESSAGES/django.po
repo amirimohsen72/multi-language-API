@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-07 13:32+0330\n"
+"PO-Revision-Date: 2023-10-31 10:44+0330\n"
+"Last-Translator:   <amirimohsen72@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\shop\admin.py:23 .\shop\admin.py:91 .\shop\admin.py:217
+msgid "modified date"
+msgstr ""
+
+#: .\shop\admin.py:27 .\shop\admin.py:42 .\shop\admin.py:57 .\shop\admin.py:95
+#: .\shop\models\brand.py:15 .\shop\models\category.py:13
+#: .\shop\models\news.py:21 .\shop\models\product.py:21
+#: .\shop\models\product_gallery.py:12
+msgid "title"
+msgstr "title"
+
+#: .\shop\admin.py:161
+msgid "created date"
+msgstr ""
+
+#: .\shop\api\serializers\cart.py:121
+msgid "You can't add products from other license."
+msgstr ""
+
+#: .\shop\api\serializers\order.py:135
+msgid "There is no cart with this cart id!"
+msgstr ""
+
+#: .\shop\api\serializers\order.py:138
+msgid "Your cart is empty. Please add some products to it first!"
+msgstr ""
+
+#: .\shop\api\serializers\order.py:167
+msgid "new order submited"
+msgstr ""
+
+#: .\shop\api\views\brand.py:29 .\shop\api\views\brand.py:43
+#: .\shop\api\views\home_product.py:41 .\shop\api\views\home_product.py:93
+#: .\shop\api\views\home_product.py:126 .\shop\api\views\home_product.py:159
+#: .\shop\api\views\home_product.py:214
+msgid "license key is not valid"
+msgstr ""
+
+#: .\shop\api\views\favorite_product.py:28
+#: .\shop\api\views\pending_purchase.py:28
+msgid "The product has been removed from your favorites"
+msgstr ""
+
+#: .\shop\api\views\favorite_product.py:35
+#: .\shop\api\views\pending_purchase.py:35
+msgid "The product has been added to your favorites"
+msgstr ""
+
+#: .\shop\api\views\order.py:98
+msgid "order not found"
+msgstr ""
+
+#: .\shop\api\views\order.py:100
+msgid "error in order copy"
+msgstr ""
+
+#: .\shop\apps.py:8
+msgid "shop"
+msgstr ""
+
+#: .\shop\models\brand.py:16 .\shop\models\category.py:14
+#: .\shop\models\news.py:22 .\shop\models\product.py:22
+msgid "description"
+msgstr ""
+
+#: .\shop\models\brand.py:19 .\shop\models\category.py:19
+#: .\shop\models\news.py:29
+msgid "cover image"
+msgstr ""
+
+#: .\shop\models\brand.py:20 .\shop\models\category.py:15
+#: .\shop\models\product.py:23
+msgid "slug"
+msgstr ""
+
+#: .\shop\models\brand.py:21 .\shop\models\product.py:32
+#: .\shop\models\product.py:62
+msgid "category"
+msgstr ""
+
+#: .\shop\models\brand.py:23 .\shop\models\category.py:24
+msgid "sort"
+msgstr ""
+
+#: .\shop\models\brand.py:24 .\shop\models\category.py:23
+#: .\shop\models\news.py:33 .\shop\models\order.py:43
+#: .\shop\models\order.py:100
+msgid "status"
+msgstr ""
+
+#: .\shop\models\brand.py:27 .\shop\models\product.py:37
+msgid "brand"
+msgstr ""
+
+#: .\shop\models\brand.py:28
+msgid "brands"
+msgstr ""
+
+#: .\shop\models\cart.py:11 .\shop\models\cart.py:19
+msgid "cart"
+msgstr ""
+
+#: .\shop\models\cart.py:12
+msgid "carts"
+msgstr ""
+
+#: .\shop\models\cart.py:14
+msgid "uuid"
+msgstr ""
+
+#: .\shop\models\cart.py:15 .\shop\models\order.py:42
+#: .\shop\models\order.py:97 .\shop\models\product.py:42
+msgid "create date"
+msgstr ""
+
+#: .\shop\models\cart.py:21 .\shop\models\favorite.py:17
+#: .\shop\models\order.py:61 .\shop\models\product.py:46
+#: .\shop\models\product_color.py:15 .\shop\models\product_gallery.py:15
+#: .\shop\models\purchase_list.py:17
+msgid "product"
+msgstr ""
+
+#: .\shop\models\cart.py:22 .\shop\models\order.py:62
+msgid "quantity"
+msgstr ""
+
+#: .\shop\models\cart.py:26
+msgid "cart item"
+msgstr ""
+
+#: .\shop\models\cart.py:27
+msgid "cart items"
+msgstr ""
+
+#: .\shop\models\category.py:21
+msgid "parent category"
+msgstr ""
+
+#: .\shop\models\category.py:27
+msgid "product category"
+msgstr ""
+
+#: .\shop\models\category.py:28
+msgid "products categories"
+msgstr ""
+
+#: .\shop\models\favorite.py:11
+msgid "favorite"
+msgstr ""
+
+#: .\shop\models\favorite.py:12
+msgid "favorite products"
+msgstr ""
+
+#: .\shop\models\favorite.py:19 .\shop\models\purchase_list.py:19
+msgid "user"
+msgstr ""
+
+#: .\shop\models\favorite.py:21 .\shop\models\product.py:41
+msgid "active"
+msgstr ""
+
+#: .\shop\models\news.py:14
+msgid "draft"
+msgstr ""
+
+#: .\shop\models\news.py:15
+msgid "published"
+msgstr ""
+
+#: .\shop\models\news.py:16
+msgid "unallowable"
+msgstr ""
+
+#: .\shop\models\news.py:26 .\shop\models\product.py:34
+msgid "author"
+msgstr ""
+
+#: .\shop\models\news.py:30
+msgid "create time"
+msgstr ""
+
+#: .\shop\models\news.py:31
+msgid "modify time"
+msgstr ""
+
+#: .\shop\models\news.py:36
+msgid "the news"
+msgstr ""
+
+#: .\shop\models\news.py:37
+msgid "News"
+msgstr ""
+
+#: .\shop\models\order.py:11 .\shop\models\order.py:59
+#: .\shop\models\order.py:87
+msgid "order"
+msgstr ""
+
+#: .\shop\models\order.py:12
+msgid "orders"
+msgstr ""
+
+#: .\shop\models\order.py:19 .\shop\models\order.py:82
+msgid "Paid"
+msgstr ""
+
+#: .\shop\models\order.py:20
+msgid "Unpaid"
+msgstr ""
+
+#: .\shop\models\order.py:21
+msgid "marketer checked"
+msgstr ""
+
+#: .\shop\models\order.py:22 .\shop\models\order.py:84
+msgid "Canceled"
+msgstr ""
+
+#: .\shop\models\order.py:26
+msgid "customer user"
+msgstr ""
+
+#: .\shop\models\order.py:27
+msgid " customer full name"
+msgstr ""
+
+#: .\shop\models\order.py:30 .\shop\models\order.py:90
+msgid "marketer"
+msgstr ""
+
+#: .\shop\models\order.py:32 .\shop\models\order.py:92
+msgid "marketer commission"
+msgstr ""
+
+#: .\shop\models\order.py:33
+msgid "total weight"
+msgstr ""
+
+#: .\shop\models\order.py:35
+msgid "total price"
+msgstr ""
+
+#: .\shop\models\order.py:38
+msgid "total weight with wages"
+msgstr ""
+
+#: .\shop\models\order.py:39
+msgid "order note"
+msgstr ""
+
+#: .\shop\models\order.py:63
+msgid "wages"
+msgstr ""
+
+#: .\shop\models\order.py:64 .\shop\models\product.py:26
+msgid "weight"
+msgstr ""
+
+#: .\shop\models\order.py:65 .\shop\models\product.py:28
+msgid "Weight with wages"
+msgstr ""
+
+#: .\shop\models\order.py:69
+msgid "order detail"
+msgstr ""
+
+#: .\shop\models\order.py:70
+msgid "orders details"
+msgstr ""
+
+#: .\shop\models\order.py:75
+msgid "order commission"
+msgstr ""
+
+#: .\shop\models\order.py:76
+msgid "orders commission"
+msgstr ""
+
+#: .\shop\models\order.py:83
+msgid "Unpaid (new)"
+msgstr ""
+
+#: .\shop\models\order.py:94
+msgid "commission payment amount"
+msgstr ""
+
+#: .\shop\models\order.py:95
+msgid "calculation extra note"
+msgstr ""
+
+#: .\shop\models\order.py:98 .\shop\models\product.py:43
+#: .\shop\models\product_gallery.py:18
+msgid "modify date"
+msgstr ""
+
+#: .\shop\models\product.py:15
+msgid "newest"
+msgstr ""
+
+#: .\shop\models\product.py:16
+msgid "low level"
+msgstr ""
+
+#: .\shop\models\product.py:17
+msgid "high level"
+msgstr ""
+
+#: .\shop\models\product.py:18
+msgid "luxury"
+msgstr ""
+
+#: .\shop\models\product.py:24
+msgid "size"
+msgstr ""
+
+#: .\shop\models\product.py:25
+msgid "normal price"
+msgstr ""
+
+#: .\shop\models\product.py:26
+msgid "example : 1.2 grams"
+msgstr ""
+
+#: .\shop\models\product.py:27
+msgid "carat"
+msgstr ""
+
+#: .\shop\models\product.py:27
+msgid "example : 24 carats"
+msgstr ""
+
+#: .\shop\models\product.py:29
+msgid "example : 25 grams"
+msgstr ""
+
+#: .\shop\models\product.py:39 .\shop\models\product_gallery.py:17
+msgid "product Image"
+msgstr ""
+
+#: .\shop\models\product.py:40
+msgid "type"
+msgstr ""
+
+#: .\shop\models\product.py:47
+msgid "products"
+msgstr ""
+
+#: .\shop\models\product_color.py:9
+msgid "product color"
+msgstr ""
+
+#: .\shop\models\product_color.py:10
+msgid "product colors"
+msgstr ""
+
+#: .\shop\models\product_color.py:12
+msgid "color name"
+msgstr ""
+
+#: .\shop\models\product_color.py:13
+msgid "color code"
+msgstr ""
+
+#: .\shop\models\product_gallery.py:9
+msgid "product gallery"
+msgstr ""
+
+#: .\shop\models\product_gallery.py:10
+msgid "product galleries"
+msgstr ""
+
+#: .\shop\models\purchase_list.py:11
+msgid "Pending purchase"
+msgstr ""
+
+#: .\shop\models\purchase_list.py:12
+msgid "Pending purchase lists"
+msgstr ""

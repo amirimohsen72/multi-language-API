@@ -59,6 +59,7 @@ INSTALLED_APPS = [
 
     'core.apps.CoreConfig',
     'support.apps.SupportConfig',
+    'shop.apps.ShopConfig',
 
 ]
 
