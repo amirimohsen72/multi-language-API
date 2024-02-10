@@ -14,11 +14,11 @@ class ProductFilter(django_filters.FilterSet):
         ('tr', 'Turkish'),
     ]
     lang = django_filters.ChoiceFilter(choices=LANG_CHOICES, label="language", method='language_filter', )
-    license_key = django_filters.UUIDFilter(label="license key", method='license_filter', )
+    # license_key = django_filters.UUIDFilter(label="license key", method='license_filter', )
 
     class Meta:
         model = ProductModel
-        fields = {'category', 'type', 'brand', }
+        fields = {'category', 'type', }
 
     def language_filter(self, queryset, name, value):
         # if value in HomeSearchFilter.LANG_CHOICES:
@@ -46,7 +46,7 @@ class HomeSearchFilter(django_filters.FilterSet):
     ]
     lang = django_filters.ChoiceFilter(choices=LANG_CHOICES, label="language", )
     search = django_filters.CharFilter(label="Search")
-    license_key = django_filters.UUIDFilter(label="license key")
+    # license_key = django_filters.UUIDFilter(label="license key")
 
     class Meta:
         model = ProductModel

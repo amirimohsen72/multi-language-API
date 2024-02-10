@@ -5,10 +5,11 @@ from rest_framework import serializers
 from shop.models import NewsModel
 from .news import NewsSerializers
 
+
 class HomeSerializers(serializers.Serializer):
     # querynews = NewsModel.objects.all()
     # lang = self.context.get('lang', 'en')
-    news = NewsSerializers(NewsModel.objects.all(),many=True,)
+    news = NewsSerializers(NewsModel.objects.all(), many=True,)
     # def to_representation(self, instance):
     #     lang = self.context.get('lang', 'en')
     #     data = {

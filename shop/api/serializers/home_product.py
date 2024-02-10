@@ -4,6 +4,7 @@ from parler_rest.fields import TranslatedFieldsField
 from shop.models import ProductModel
 from rest_framework import serializers
 
+
 class HomeProductSerializers(TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=ProductModel)
     image = serializers.ImageField(use_url=True)

@@ -3,6 +3,7 @@ from parler_rest.fields import TranslatedFieldsField
 
 from shop.models import CategoryModel
 
+
 class CategorySerializers(TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=CategoryModel)
 
@@ -34,7 +35,7 @@ class CategoryInProductDetailSerializers(TranslatableModelSerializer):
     class Meta:
         model = CategoryModel
         fields = [
-            'translations','id',
+            'translations', 'id',
         ]
 
     def to_representation(self, instance):

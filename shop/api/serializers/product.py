@@ -5,19 +5,17 @@ from parler_rest.serializers import TranslatableModelSerializer
 from rest_framework import serializers
 from django.db import transaction
 
-from shop.models import ProductModel, FavoriteProductModel, PendingPurchaseModel
+from shop.models import ProductModel, FavoriteProductModel
 from .product_image import ProductImageSerializer
-from .product_color import ProductColorSerializer
 from .category import CategoryInProductDetailSerializers
 
 
 class ProductSerializer(TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=ProductModel)
-    colors = ProductColorSerializer(many=True, read_only=True)
 
     class Meta:
         model = ProductModel
-        fields = ['translations', 'id', 'image', 'colors', 'get_type_display', ]
+        fields = ['translations', 'id', 'image', 'get_type_display', ]
 
     def to_representation(self, instance):
         lang = self.context.get('lang', 'en')
@@ -32,7 +30,6 @@ class ProductSerializer(TranslatableModelSerializer):
             'id': super().to_representation(instance)['id'],
             'image': super().to_representation(instance)['image'],
             'type': super().to_representation(instance)['get_type_display'],
-            'colors': super().to_representation(instance)['colors'],
 
         }
         return data
@@ -42,14 +39,14 @@ class ProductSerializer(TranslatableModelSerializer):
 class ProductDetailSerializer(TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=ProductModel)
     images = serializers.SerializerMethodField()
-    colors = ProductColorSerializer(many=True, read_only=True)
     category = CategoryInProductDetailSerializers(many=True, read_only=True)
     is_favorite = serializers.SerializerMethodField()
     is_saved = serializers.SerializerMethodField()
 
     class Meta:
         model = ProductModel
-        fields = ['translations', 'id', 'images', 'colors', 'category', 'get_type_display', 'is_favorite', 'is_saved']
+        fields = ['translations', 'id', 'images', 'category',
+                  'get_type_display', 'is_favorite', 'is_saved']
 
     def to_representation(self, instance):
         lang = self.context.get('lang', 'en')
@@ -63,7 +60,6 @@ class ProductDetailSerializer(TranslatableModelSerializer):
             'weight': super().to_representation(instance)['translations'][lang]['weight'],
             'price': super().to_representation(instance)['translations'][lang]['price'],
             'id': super().to_representation(instance)['id'],
-            'colors': super().to_representation(instance)['colors'],
             'category': super().to_representation(instance)['category'],
             'type': super().to_representation(instance)['get_type_display'],
             'images': self.get_images(instance),
@@ -80,12 +76,5 @@ class ProductDetailSerializer(TranslatableModelSerializer):
         request = self.context.get('request')
         if request and request.user.is_authenticated:
             return FavoriteProductModel.objects.filter(product__id=obj.id, user=request.user).exists()
-        else:
-            return False
-
-    def get_is_saved(self, obj):
-        request = self.context.get('request')
-        if request and request.user.is_authenticated:
-            return PendingPurchaseModel.objects.filter(product__id=obj.id, user=request.user).exists()
         else:
             return False

@@ -35,7 +35,9 @@ urlpatterns += [
 
                   path('auth/', include('djoser.urls.authtoken')),
                   path('', include('core.api.urls')),
-                  
+                  path('shop/', include('shop.api.urls')),
+                  path('support/', include('support.api.urls')),
+
                   path('change_lang/', change_lang, name='change_lang'),
                   path('change_lang_web/', change_lang_web, name='change_lang_Web'),
 

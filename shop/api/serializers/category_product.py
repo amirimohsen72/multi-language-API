@@ -22,7 +22,7 @@ class CategoryProductSerializers(TranslatableModelSerializer):
 
     def get_products(self, obj):
         return HomeProductSerializers(instance=obj.products.all()[:10], many=True,
-                                  context=self.context).data
+                                      context=self.context).data
 
     def to_representation(self, instance):
         lang = self.context.get('lang', 'en')

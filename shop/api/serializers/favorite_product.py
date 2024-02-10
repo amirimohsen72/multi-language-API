@@ -4,8 +4,6 @@ from parler_rest.fields import TranslatedFieldsField
 
 from shop.api.serializers.category import CategoryInProductDetailSerializers
 from shop.models import FavoriteProductModel, ProductModel
-from shop.api.serializers.product import ProductColorSerializer
-from shop.api.serializers.brand import BrandInDetailSerializer
 
 
 class FavoriteProductSerializer(serializers.ModelSerializer):
@@ -32,13 +30,11 @@ class FavoriteProductSerializer(serializers.ModelSerializer):
 
 class ProductInFavoriteSerializer(TranslatableModelSerializer):
     translations = TranslatedFieldsField(shared_model=ProductModel)
-    brand = BrandInDetailSerializer()
-    colors = ProductColorSerializer(many=True, read_only=True)
     category = CategoryInProductDetailSerializers(many=True, read_only=True)
 
     class Meta:
         model = ProductModel
-        fields = ['translations', 'brand', 'id', 'image', 'colors','category']
+        fields = ['translations', 'brand', 'id', 'image', 'colors', 'category']
 
     def to_representation(self, instance):
         lang = self.context.get('lang', 'en')
@@ -52,8 +48,6 @@ class ProductInFavoriteSerializer(TranslatableModelSerializer):
             'price': super().to_representation(instance)['translations'][lang]['price'],
             'id': super().to_representation(instance)['id'],
             'image': super().to_representation(instance)['image'],
-            'brand': super().to_representation(instance)['brand'],
-            'colors': super().to_representation(instance)['colors'],
             'category': super().to_representation(instance)['category'],
 
         }
