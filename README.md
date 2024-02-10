@@ -45,6 +45,8 @@ in this step you most set your nationalcode for username and set email and passw
 ## django apps 
 we have 3 main model for django 
 - [X] config (this is base application app)
+- [X] support
+
 - [ ] shop
 
 
